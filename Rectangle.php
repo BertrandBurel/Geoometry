@@ -1,6 +1,8 @@
 <?php
 namespace Geoometry;
 
+require_once 'Shape.php';
+
 class Rectangle extends Shape
 {
     /**
@@ -17,9 +19,8 @@ class Rectangle extends Shape
      * @param int $width
      * @param int $height
      */
-    public function __construct(int $width, int $height, string $color)
+    public function __construct(int $width, int $height)
     {
-        parent::__construct($color);
         $this->width = $width;
         $this->height = $height;
     }

@@ -6,7 +6,7 @@ abstract class Shape
     /**
      * @var string
      */
-    protected $color = 'black';
+    protected $color = 'lightblue';
 
     /**
      * Shape constructor.

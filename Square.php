@@ -1,6 +1,8 @@
 <?php
 namespace Geoometry;
 
+require_once 'Rectangle.php';
+
 class Square extends Rectangle
 {
 
@@ -9,7 +11,7 @@ class Square extends Rectangle
      */
     public function __construct(int $width)
     {
-        parent::__construct($width, $width, 'green');
+        parent::__construct($width, $width);
     }
 
 }

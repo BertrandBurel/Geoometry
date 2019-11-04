@@ -14,11 +14,11 @@
     use Geoometry\Square;
     use Geoometry\Circle;
 
-    $rectangle = new Rectangle(200, 150, 'blue');
+    $rectangle = new Rectangle(200, 150);
 
     $rectangle->setHeight(150);
     $rectangle->setWidth(200);
-    $rectangle->setColor('blue');
+    //$rectangle->setColor('blue');
 
     var_dump($rectangle);
 
